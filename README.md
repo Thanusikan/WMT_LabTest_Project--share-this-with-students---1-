@@ -16,17 +16,14 @@ frontend\src\components\ItemForm.jsx
 la ----
 
 
-function ItemForm({ initialValues, onSubmit, submitText }) {
-  const [formData, setFormData] = useState(
-    initialValues || {
+ 
       name: "",
       category: "",
       price: "",
       description: "",
       imageUrl: "",
       serialNumber: "",                       <-----ithula add pannanum
-    }
-  );
+  
 
 ithe fille la kila ithu varum 
 
