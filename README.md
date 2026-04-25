@@ -14,6 +14,8 @@ la ----
 frontend\src\components\ItemForm.jsx
 
 la ----
+
+
 function ItemForm({ initialValues, onSubmit, submitText }) {
   const [formData, setFormData] = useState(
     initialValues || {
@@ -22,7 +24,7 @@ function ItemForm({ initialValues, onSubmit, submitText }) {
       price: "",
       description: "",
       imageUrl: "",
-      serialNumber: "",   <-----ithula add pannanum
+      serialNumber: "",                       <-----ithula add pannanum
     }
   );
 
