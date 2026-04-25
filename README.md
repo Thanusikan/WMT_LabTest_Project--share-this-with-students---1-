@@ -36,8 +36,9 @@ ithe fille la kila ithu varum
 frontend/src/components/ItemCard.jsx
 
 la ---
-  <h3>{item.name}</h3>
-      <p><strong>Serial Number:</strong> {item.serialNumber}</p>   <----itha add pannu
+       
+	  <h3>{item.name}</h3>
+      <p><strong>Serial Number:</strong> {item.serialNumber}</p>                     <----itha add pannu
       <p><strong>Category:</strong> {item.category}</p>
       <p><strong>Price:</strong> ${item.price}</p>
       <p>{item.description}</p>
